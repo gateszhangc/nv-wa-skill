@@ -131,6 +131,17 @@ const nextConfig = {
         has: [
           {
             type: "host",
+            value: "www.nv-wa-skill.lol",
+          },
+        ],
+        destination: "https://nv-wa-skill.lol/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
             value: "easyclaw.pro",
           },
         ],

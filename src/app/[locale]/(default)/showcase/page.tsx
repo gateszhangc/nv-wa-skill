@@ -13,9 +13,10 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const siteUrl = getSiteUrl();
+  const title = locale === "zh" ? "效果示例 | 女娲.skill" : "Showcase | Nuwa.skill";
 
   return {
-    title: "Showcase | EasyClaw",
+    title,
     alternates: {
       canonical: getAbsoluteLocalizedUrl(siteUrl, locale, "/showcase"),
       languages: buildAlternateLanguageUrls(siteUrl, "/showcase"),

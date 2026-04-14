@@ -26,3 +26,13 @@ spec:
                 name: nv-wa-skill
                 port:
                   number: 80
+    - host: www.nv-wa-skill.lol
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nv-wa-skill
+                port:
+                  number: 80
