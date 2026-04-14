@@ -1,0 +1,128 @@
+{
+  "template": "nuwa-skill-site",
+  "theme": "dark",
+  "header": {
+    "brand": {
+      "title": "女娲.skill",
+      "logo": {
+        "src": "/brand/nuwa-mark.svg",
+        "alt": "女娲.skill 标志"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "方法论",
+          "url": "/#framework",
+          "icon": "RiBookLine"
+        },
+        {
+          "title": "效果示例",
+          "url": "/#examples",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "安装",
+          "url": "/#install",
+          "icon": "RiFileCopyLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/alchaincyf/nuwa-skill",
+        "target": "_blank",
+        "icon": "RiGithubLine",
+        "variant": "outline"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": false,
+    "show_locale": false
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "女娲.skill",
+      "description": "把任何人的思维方式蒸馏成可调用的 Skill。",
+      "logo": {
+        "src": "/brand/nuwa-mark.svg",
+        "alt": "女娲.skill 标志"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 nv-wa-skill.lol",
+    "nav": {
+      "items": [
+        {
+          "title": "站点",
+          "children": [
+            {
+              "title": "方法论",
+              "url": "/#framework",
+              "target": "_self"
+            },
+            {
+              "title": "效果示例",
+              "url": "/#examples",
+              "target": "_self"
+            },
+            {
+              "title": "安装",
+              "url": "/#install",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "GitHub 仓库",
+              "url": "https://github.com/alchaincyf/nuwa-skill",
+              "target": "_blank"
+            },
+            {
+              "title": "隐私政策",
+              "url": "/privacy-policy",
+              "target": "_self"
+            },
+            {
+              "title": "使用条款",
+              "url": "/terms-of-service",
+              "target": "_self"
+            },
+            {
+              "title": "站点说明",
+              "url": "/refund-policy",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "GitHub",
+          "icon": "RiGithubLine",
+          "url": "https://github.com/alchaincyf/nuwa-skill",
+          "target": "_blank"
+        }
+      ]
+    },
+    "disclaimer": "本站展示的品牌内容与方法论说明服务于女娲.skill 项目本身；具体功能、支持范围与安装方式以 GitHub 仓库最新状态为准。"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "template": "nuwa-skill-site",
+  "theme": "dark",
+  "header": {
+    "brand": {
+      "title": "女娲.skill",
+      "logo": {
+        "src": "/brand/nuwa-mark.svg",
+        "alt": "Nuwa Skill mark"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Method",
+          "url": "/#framework",
+          "icon": "RiBookLine"
+        },
+        {
+          "title": "Examples",
+          "url": "/#examples",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Install",
+          "url": "/#install",
+          "icon": "RiFileCopyLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/alchaincyf/nuwa-skill",
+        "target": "_blank",
+        "icon": "RiGithubLine",
+        "variant": "outline"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": false,
+    "show_locale": false
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "女娲.skill",
+      "description": "Distill anyone's thinking into a callable skill.",
+      "logo": {
+        "src": "/brand/nuwa-mark.svg",
+        "alt": "Nuwa Skill mark"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 nv-wa-skill.lol",
+    "nav": {
+      "items": [
+        {
+          "title": "Site",
+          "children": [
+            {
+              "title": "Method",
+              "url": "/#framework",
+              "target": "_self"
+            },
+            {
+              "title": "Examples",
+              "url": "/#examples",
+              "target": "_self"
+            },
+            {
+              "title": "Install",
+              "url": "/#install",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "GitHub Repo",
+              "url": "https://github.com/alchaincyf/nuwa-skill",
+              "target": "_blank"
+            },
+            {
+              "title": "Privacy",
+              "url": "/privacy-policy",
+              "target": "_self"
+            },
+            {
+              "title": "Terms",
+              "url": "/terms-of-service",
+              "target": "_self"
+            },
+            {
+              "title": "Site Notice",
+              "url": "/refund-policy",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "GitHub",
+          "icon": "RiGithubLine",
+          "url": "https://github.com/alchaincyf/nuwa-skill",
+          "target": "_blank"
+        }
+      ]
+    },
+    "disclaimer": "Brand, method, and install details on this site are snapshots of the Nuwa Skill project; verify the latest state in the GitHub repository."
+  }
+}

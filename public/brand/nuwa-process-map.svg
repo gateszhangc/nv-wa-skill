@@ -1,0 +1,42 @@
+<svg width="1400" height="1100" viewBox="0 0 1400 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1100" fill="#121110"/>
+  <g opacity="0.16">
+    <path d="M92 112H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 196H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 280H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 364H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 448H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 532H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 616H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 700H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 784H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 868H1308" stroke="rgba(241, 235, 220, 0.14)" /><path d="M92 952H1308" stroke="rgba(241, 235, 220, 0.14)" />
+    <path d="M110 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M226 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M342 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M458 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M574 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M690 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M806 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M922 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M1038 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M1154 82V1018" stroke="rgba(241, 235, 220, 0.14)" /><path d="M1270 82V1018" stroke="rgba(241, 235, 220, 0.14)" />
+  </g>
+  <rect x="92" y="108" width="354" height="260" rx="8" fill="#090909" stroke="#f1ebdc" stroke-opacity="0.18"/>
+  <rect x="524" y="222" width="354" height="260" rx="8" fill="#090909" stroke="#f1ebdc" stroke-opacity="0.18"/>
+  <rect x="954" y="336" width="354" height="260" rx="8" fill="#090909" stroke="#f1ebdc" stroke-opacity="0.18"/>
+  <rect x="308" y="694" width="354" height="260" rx="8" fill="#090909" stroke="#f1ebdc" stroke-opacity="0.18"/>
+  <rect x="738" y="694" width="354" height="260" rx="8" fill="#090909" stroke="#f1ebdc" stroke-opacity="0.18"/>
+  <path d="M446 238H524" stroke="#d5542f" stroke-width="4"/>
+  <path d="M878 352H954" stroke="#8cd7c2" stroke-width="4"/>
+  <path d="M1132 596V694" stroke="#d7c768" stroke-width="4"/>
+  <path d="M662 824H738" stroke="#f1ebdc" stroke-width="4"/>
+  <text x="126" y="172" fill="#d5542f" font-family="Helvetica" font-size="48">01</text>
+  <text x="558" y="286" fill="#8cd7c2" font-family="Helvetica" font-size="48">02</text>
+  <text x="988" y="400" fill="#d7c768" font-family="Helvetica" font-size="48">03</text>
+  <text x="342" y="758" fill="#f1ebdc" font-family="Helvetica" font-size="48">04</text>
+  <text x="772" y="758" fill="#f1ebdc" font-family="Helvetica" font-size="48">05</text>
+  <circle cx="1188" cy="190" r="76" stroke="#8cd7c2" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="1188" cy="190" r="118" stroke="#d7c768" stroke-opacity="0.16" stroke-width="2"/>
+  <g transform="translate(1010 84) scale(0.19)">
+    
+  <defs>
+    <linearGradient id="clayStroke" x1="128" y1="72" x2="376" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d5542f"/>
+      <stop offset="1" stop-color="#d7c768"/>
+    </linearGradient>
+  </defs>
+  <path d="M118 150C152 108 204 88 256 88C352 88 424 154 424 250C424 364 330 428 238 428C160 428 96 378 88 300" stroke="url(#clayStroke)" stroke-width="28" stroke-linecap="round"/>
+  <path d="M160 214C186 176 226 156 270 156C332 156 376 202 376 264C376 338 318 382 252 382C204 382 166 358 148 322" stroke="#f1ebdc" stroke-opacity="0.96" stroke-width="20" stroke-linecap="round"/>
+  <path d="M198 256C214 230 244 214 278 214C318 214 346 244 346 282C346 326 310 350 274 350C248 350 222 338 208 318" stroke="#8cd7c2" stroke-width="16" stroke-linecap="round"/>
+  <path d="M256 114V62" stroke="#d7c768" stroke-width="12" stroke-linecap="round"/>
+  <path d="M392 168L436 132" stroke="#d7c768" stroke-width="12" stroke-linecap="round"/>
+  <path d="M120 372L74 402" stroke="#d7c768" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="256" cy="62" r="12" fill="#d7c768"/>
+  <circle cx="448" cy="122" r="12" fill="#d5542f"/>
+  <circle cx="64" cy="410" r="12" fill="#8cd7c2"/>
+
+  </g>
+</svg>

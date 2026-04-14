@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: nv-wa-skill
+  labels:
+    app.kubernetes.io/name: nv-wa-skill
+    app.kubernetes.io/part-of: nv-wa-skill
