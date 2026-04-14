@@ -5,4 +5,4 @@ resources:
   - ingress.yaml
 images:
   - name: registry.144.91.77.245.sslip.io/nv-wa-skill
-    newTag: d95b998321f43e682344038f5a9ea26af1db0f48
+    newTag: 69d99a651f8a8c2c8b4afd6f29f640e1c7fa5a14
