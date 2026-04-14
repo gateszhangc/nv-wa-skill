@@ -1,7 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
+import { isDatabaseConfigured } from "@/db";
 import { getPostsByLocale } from "@/models/post";
 
 export async function GET(request: NextRequest) {
+  if (!isDatabaseConfigured()) {
+    return NextResponse.json({ slugs: [] }, { status: 200 });
+  }
+
   try {
     const { searchParams } = new URL(request.url);
     const locale = searchParams.get("locale") || "en";

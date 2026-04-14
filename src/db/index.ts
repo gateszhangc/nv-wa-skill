@@ -8,8 +8,12 @@ const isCloudflareWorker =
 // Database instance for Node.js environment
 let dbInstance: ReturnType<typeof drizzle> | null = null;
 
+export function isDatabaseConfigured() {
+  return Boolean(process.env.DATABASE_URL?.trim());
+}
+
 export function db() {
-  const databaseUrl = process.env.DATABASE_URL;
+  const databaseUrl = process.env.DATABASE_URL?.trim();
   if (!databaseUrl) {
     throw new Error("DATABASE_URL is not set");
   }

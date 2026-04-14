@@ -1,5 +1,7 @@
 import Blog from "@/components/blocks/blog";
+import Empty from "@/components/blocks/empty";
 import { BlogItem, Blog as BlogType } from "@/types/blocks/blog";
+import { isDatabaseConfigured } from "@/db";
 import { getPostsByLocale } from "@/models/post";
 import { getTranslations } from "next-intl/server";
 import { getSiteUrl } from "@/lib/site-url";
@@ -27,6 +29,12 @@ export async function generateMetadata({
       canonical: canonicalUrl,
       languages,
     },
+    robots: isDatabaseConfigured()
+      ? undefined
+      : {
+          index: false,
+          follow: false,
+        },
   };
 }
 
@@ -37,6 +45,18 @@ export default async function PostsPage({
 }) {
   const { locale } = await params;
   const t = await getTranslations();
+
+  if (!isDatabaseConfigured()) {
+    return (
+      <Empty
+        message={
+          locale === "zh"
+            ? "文章列表暂时不可用"
+            : "Posts are temporarily unavailable"
+        }
+      />
+    );
+  }
 
   const posts = await getPostsByLocale(locale);
 

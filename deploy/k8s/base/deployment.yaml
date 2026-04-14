@@ -24,6 +24,10 @@ spec:
               - matchExpressions:
                   - key: node-role.kubernetes.io/control-plane
                     operator: DoesNotExist
+                  - key: kubernetes.io/hostname
+                    operator: NotIn
+                    values:
+                      - vmi3197690
       containers:
         - name: web
           image: registry.144.91.77.245.sslip.io/nv-wa-skill:bootstrap
@@ -41,15 +45,18 @@ spec:
           readinessProbe:
             initialDelaySeconds: 5
             periodSeconds: 10
-            tcpSocket:
-              port: 3000
+            httpGet:
+              path: /robots.txt
+              port: http
           livenessProbe:
             initialDelaySeconds: 15
             periodSeconds: 20
-            tcpSocket:
-              port: 3000
+            httpGet:
+              path: /robots.txt
+              port: http
           startupProbe:
             failureThreshold: 30
             periodSeconds: 5
-            tcpSocket:
-              port: 3000
+            httpGet:
+              path: /robots.txt
+              port: http
